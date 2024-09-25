@@ -91,12 +91,14 @@ image_batch = images[0]  # Access the first image in the batch if needed
 
 
 
+
 Most of the parts of the project have been implemented individually. We just need to work on integrating them.
 The following parts have been figured out individually:-
 
 1. Interactive Semantic Segmentation website using SAM.
 2. Utilization of device GPU/NPU resources.
 3. Interactive Semantic Segmentation on images fetched from Web Map Services.
+4. Export of images in geospatial formats such as GeoJSON and KML.
 
 
 
