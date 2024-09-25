@@ -15,14 +15,7 @@ This project demonstrates the implementation of a U-Net model for semantic segme
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-repository/semantic-segmentation-unet.git
-   cd semantic-segmentation-unet
-   ```
-
-2. **Install the required dependencies:**
-   - You can use `pip` to install dependencies from the `requirements.txt` file.
-   ```bash
-   pip install -r requirements.txt
+   git clone [https://github.com/your-repository/semantic-segmentation-unet.git](https://github.com/sassy2711/SIH-24-1735-SemanticSegmentation.git)
    ```
 
 ## Dataset
@@ -95,3 +88,15 @@ image_batch = images[0]  # Access the first image in the batch if needed
 
 - [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597)
 - TensorFlow Documentation for [Image Segmentation](https://www.tensorflow.org/tutorials/images/segmentation)
+
+
+
+Most of the parts of the project have been implemented individually. We just need to work on integrating them.
+The following parts have been figured out individually:-
+
+1. Interactive Semantic Segmentation website using SAM.
+2. Utilization of device GPU/NPU resources.
+3. Interactive Semantic Segmentation on images fetched from Web Map Services.
+
+
+
